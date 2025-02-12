@@ -1,7 +1,7 @@
 {
   "name": "@openclassrooms/chat-ui-kit-react",
   "version": "1.0.0",
-  "description": "React component library for creating chat interfaces",
+  "description": "Fork of @chatscope/chat-ui-kit-react",
   "license": "MIT",
   "homepage": "https://chatscope.io/",
   "keywords": [

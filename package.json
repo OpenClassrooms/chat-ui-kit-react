@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Fork of @chatscope/chat-ui-kit-react",
   "license": "MIT",
-  "homepage": "https://chatscope.io/",
   "keywords": [
     "chat",
     "react",
@@ -25,7 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chatscope/chat-ui-kit-react.git"
+    "url": "git+ssh://git@github.com:OpenClassrooms/ai-api.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -97,9 +99,6 @@
     "dist",
     "src/**/*.d.ts"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "release": {
     "plugins": [
       [
